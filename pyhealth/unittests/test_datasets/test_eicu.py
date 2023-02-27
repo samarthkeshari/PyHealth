@@ -24,7 +24,7 @@ class TesteICUDataset(unittest.TestCase):
         tables=TABLES,
         code_mapping=CODE_MAPPING,
         dev=DEV,
-        refresh_cache=True,
+        refresh_cache=REFRESH_CACHE,
     )
 
     def setUp(self):
